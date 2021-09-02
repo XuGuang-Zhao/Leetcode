@@ -4,7 +4,7 @@ public class Apple extends Fruit{
         super.num = 10;
         System.out.println("eat " + num + " Apple");
     }
-    // change this line
+    // Second Change
     public static void main(String[] args) {
         Fruit fruit = new Apple();
         fruit.eat();
